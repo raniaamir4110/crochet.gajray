@@ -1,6 +1,7 @@
-
-
-
+@font-face {
+    font-family:sekuya ;
+    src: url("./Sekuya-Regular.ttf");
+}
 
 .header{
     width: 97%;
@@ -14,11 +15,23 @@
 a{
     text-decoration: none;
     color: rgb(77, 28, 28);
+    font-family: sekuya;
+    text-size-adjust: 10;
 }
 .image{
-   width: 400px;
-   height: 400px; 
+   width: 500px;
+   height: 500px; 
    border-radius: 59px 59px 59px 59px;
-   background-color: blueviolet;
-   margin-left: 50;
+   border: 6px solid black;
+   margin-left: 400;
+}
+
+img{
+    width: 500;
+    height: 500;
+ background-color:aquamarine;
+ border-radius: 59px 59px 59px 59px;
+}
+.reel{
+    text-decoration: none;
 }
